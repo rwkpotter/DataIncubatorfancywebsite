@@ -148,7 +148,7 @@
 				</ul>
 			</section>
 
-		<section id="station" class="wrapper style 2 special">
+		<section id="station" class="wrapper style2 special">
 				<div class="container">
 
 					<header class="major special">
