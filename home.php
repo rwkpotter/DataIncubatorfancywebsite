@@ -17,7 +17,7 @@
 			<header id="header" class="alt">
 				<h1>A DataIncubator Capstone Project</h1>
 				<!--<p>by <a href="mailto:rwkpotter@gmail.com">Ross Potter</a></p>-->
-				<p>by R. Potter</p>
+				<p>by Ross Potter</p>
 
 				<nav id="nav">
 					<ul>
@@ -25,6 +25,7 @@
 						<li><a href="analysis.php">Analysis</a></li>
 						<li><a href="recommendations.php">Recommendations</a></li>
 						<li><a href="elements.php">About Me</a></li>
+
 					</ul>
 				</nav>
 			</header>
@@ -215,7 +216,7 @@
 						<li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li>
+						<li>&copy; </li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>

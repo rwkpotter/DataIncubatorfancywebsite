@@ -28,10 +28,10 @@
 				<p>by Ross Potter</p>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Overview</a></li>
-						<li><a href="analysis.html">Analysis</a></li>
-						<li><a href="recommendations.html">Recommendations</a></li>
-						<li><a href="elements.html">About Me</a></li>
+						<li><a href="home.php">Overview</a></li>
+						<li><a href="analysis.php">Analysis</a></li>
+						<li><a href="recommendations.php">Recommendations</a></li>
+						<li><a href="elements.php">About Me</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -42,12 +42,14 @@
 			<section id="banner">
 				<h2>New York City Citi Bike:</h2>
 				<p>What to recommend</p>
-				<ul class="actions intro">
-					<li><a href="#one" class="button">User demographic</a></li>
-					<li><a href="#" class="button">Popular stations</a></li>
-					<li><a href="#" class="button">Route popularityc</a></li>
-					<li><a href="#" class="button">Other 1</a></li>
-					<li><a href="#" class="button">Other 2</a></li>
+				<ul class="actions"> 
+			<li><a href="#user" class="button">User demographic</a></li>	
+			<li class="trip"><a href="#trip" class="button">Trip statistics</a></li>
+					<li class="revenue"><a href="#revenue" class="button">Revenue</a></li>
+					<li class="station"><a href="#station" class="button">Station popularity</a></li>
+					<li class="route"><a href="#route" class="button">Route popularity</a></li>
+				</ul>
+				
 				</ul>
 			</section>
 
@@ -57,122 +59,23 @@
 				<div class="container">
 
 					<header class="major">
-						<h2>User Demographic</h2>
-						<p>Majority of users men; seasonal change in bike use; use increase over time</p>
+						<h2>Coming soon!</h2>
+						<p></p>
 					</header>
 
-					<a href="#" class="image fit"><img src="images/journeysperqtr.png" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-
-					<ul class="actions">
-							<li class="more"><a href="#two" class="button alt small">More</a></li>
-						</ul>
 				</div>
 			</section>
 
-
-
-	<section id="two" class="wrapper style2 special">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
-					<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-
-					<ul class="actions">
-						<li class="more"><a href="#two" class="button alt small">More</a></li>
-					</ul>
-				</div>
-			</section>
-
-
-		<section id="three" class="wrapper style 1 special">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
-					<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				</div>
-
-				<ul class="actions">
-						<li class="more"><a href="#two" class="button alt small">More</a></li>
-				</ul>
-			</section>
-
-	<section id="four" class="wrapper style2 special">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
-					<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				</div>
-
-				<ul class="actions">
-						<li class="more"><a href="#two" class="button alt small">More</a></li>
-				</ul>
-
-		</section>
-
-
-			<section id="five" class="wrapper">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
-					<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				</div>
-
-
-		<ul class="actions">
-				<li class="more"><a href="#two" class="button alt small">More</a></li>
-				</ul>
-			</section>
-
-			<section id="last" class="wrapper style1 special">
-				<div class="container">
-
-					<header class="major special">
-						<h2>Generic</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-
-					<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				</div>
-
-			<ul class="actions buttonmove">
-			<li><a href="generic.html" class="button special big">What does it all mean?</a></li>
-			<li><a href="index.html" class="button big">Back to top</a></li>
-			</ul>
-
-			</section>
-
-		<!-- Footer -->
+<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-linkedin"></a></li>
-						<li><a href="#" class="icon fa-github"></a></li>
-						<li><a href="#" class="icon fa-google"></a></li>
+<li><a href="https://www.linkedin.com/in/ross-potter-825390ab" class="icon fa-linkedin"></a></li>
+<li><a href="https://github.com/rwkpotter" class="icon fa-github"></a></li>
+<li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Ross Potter</li>
+						<li>&copy; </li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>
