@@ -21,10 +21,10 @@
 
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Overview</a></li>
-						<li><a href="analysis.html">Analysis</a></li>
-						<li><a href="recommendations.html">Recommendations</a></li>
-						<li><a href="elements.html">About Me</a></li>
+						<li><a href="home.php">Overview</a></li>
+						<li><a href="analysis.php">Analysis</a></li>
+						<li><a href="recommendations.php">Recommendations</a></li>
+						<li><a href="elements.php">About Me</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -100,8 +100,8 @@
 								</div>
 							</div>
 							<ul class="actions buttonmove">
-							<li><a href="analysis.html" class="button special big">Analyse the network</a></li>
-							<li><a href="index.html" class="button big">Back to top</a></li>
+							<li><a href="analysis.php" class="button special big">Analyse the network</a></li>
+							<li><a href="home.php" class="button big">Back to top</a></li>
 						</ul>
 							
 					</div>
@@ -212,7 +212,7 @@
 					<ul class="icons">
 					<li><a href="https://www.linkedin.com/in/ross-potter-825390ab" class="icon fa-linkedin"></a></li>
 					<li><a href="https://github.com/rwkpotter" class="icon fa-github"></a></li>
-						<li><a href="#" class="icon fa-google"></a></li>
+						<li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled</li>

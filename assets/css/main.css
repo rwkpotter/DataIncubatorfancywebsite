@@ -1796,15 +1796,35 @@
 
 /* Button */
 
+	input[type=checkbox]
+	{
+     -webkit-appearance: checkbox;
+     	-moz-appearance: checkbox;
+		-ms-appearance: checkbox;
+		appearance: checkbox;
+		background-color: #323037;
+	}
+
+	input[type=radio]
+	{
+     -webkit-appearance: checkbox;
+     	-moz-appearance: checkbox;
+		-ms-appearance: checkbox;
+		appearance: checkbox;
+		background-color: #323037;
+
+	}
+
+
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		-moz-appearance: checkbox;
+		-ms-appearance: checkbox;
+		appearance: checkbox;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2168,10 +2188,10 @@
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		-moz-appearance: checkbox;
+		-webkit-appearance: checkbox;
+		-ms-appearance: checkbox;
+		appearance: checkbox;
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -3305,3 +3325,8 @@
 .clear{
 	overflow:auto;
 }
+
+input[type="checkbox"],input[type="radio"]{
+  position: static !important;
+}
+
