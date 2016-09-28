@@ -17,7 +17,7 @@
 			<header id="header" class="alt">
 				<h1>A DataIncubator Capstone Project</h1>
 				<!--<p>by <a href="mailto:rwkpotter@gmail.com">Ross Potter</a></p>-->
-				<p>by Ross Potter</p>
+				<p>by R. Potter</p>
 
 				<nav id="nav">
 					<ul>
