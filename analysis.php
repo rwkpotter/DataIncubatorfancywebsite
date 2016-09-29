@@ -63,7 +63,7 @@
 					<header class="major">
 						<h2>User Demographic I</h2>
 						<p>Majority of users men; seasonal change in use; 
-						increase in number of journeys over time</p>
+						increase in journeys over time</p>
 					</header>
 		
 	
@@ -98,7 +98,7 @@
 		<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.js"></script>
 		<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.js"></script>
 
-					<p>This graph illustrates the number of journeys made on the network by age group, per quarter. Age groups can be (de)selected by clicking on the groups to the left of the graph.</p>
+					<p>This interactive graph illustrates the number of journeys made on the network by age group, per quarter. Age groups can be (de)selected by clicking on the groups to the left of the graph.</p>
 					<p>These data demonstrate that 25-35 year olds are the main users of the network.</p>
 					<p>As with the graph above, the cyclical nature of the network's use is seen. Interestingly, unlike the majority of age groups, use of the network during autumn (Q4) increases on the previous quarter for the 15-20 age group. This may well be due to the start of the academic year, with more students present.</p> 
 					<p>Note that users can choose to give their birth year. Birth years are not available for all users. Due to the relatively small number of users with given ages greater than 80 (less than 1% of total users), these users were omitted.</p>
@@ -121,7 +121,7 @@
 					</header>
 
 					<a href="#" class="image fit"><img src="images/avgtriptime.png" alt="" /></a>
-					<p>This graph illustrates the average trip time (in minutes) for customers and subscribers for July 2013, June 2014, June 2015, and June 2016. Customers are defined as users who rent a bike for one or three days; subscribers have paid a yearly fee. Note that the average trip time for customers is ~2-3x greater than that for subscribers. The average trip time for customers has increased annually (up almost 40% from 2013 to 2016), while average trip time for subscribers decreased through 2015, increasing to approximately 2013 numbers in 2016. Finally, the average trip time for customers in June 2016 exceeded the 30 minute no additional charge threshold. This means that, on average, the scheme is receiving $4 more per trip than in previous years.</p>
+					<p>This graph illustrates the average trip time (in minutes) for customers and subscribers for July 2013, June 2014, June 2015, and June 2016. Customers are defined as users who rent a bike for one or three days; subscribers have paid a yearly fee. Note that the average trip time for customers is ~2-3x greater than that for subscribers. The average trip time for customers has increased annually (up almost 40% from 2013 to 2016), while average trip time for subscribers decreased through 2015, increasing to approximately 2013 numbers in 2016. Finally, the average trip time for customers in June 2016 exceeded the 30 minute no additional charge threshold. Customers are charged an additional $4 for each additional 15 minute period beyond 30 minutes. Consequently, the scheme, on average,  received $4 more per trip in June 2016 compared to the previous years.</p>
 
 					<ul class="actions">
 						<li class="more"><a href="#revenue" class="button alt small">More</a></li>
@@ -157,7 +157,7 @@
 					</header>
 
 					<iframe width="100%" height="520" frameborder="0" src="https://rwkpotter.carto.com/viz/d473213c-7953-11e6-b63d-0ef24382571b/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<p>This interactive map can be used to view the location of each bike station and their popularity, represented by the number of journeys started at each station. Click on the visible layers tab to get started. The datasets available are for four quarters: the first quarter of the scheme's operation (Q3-2013: q3_2013); and then Q2 for the years 2014, 2015, and 2016 (q2_2014; q2_215; q2_2016, respectively). Note that the scale changes for each dataset on the map. More information about each station can be viewed by hovering or clicking on the icon. The most accessed stations for each of the quarters were: 2013 - W 20 St &amp; 11 Ave (station 459: 40.74674 lat, -74.00776 long; 2014 - E 42 St &amp; Vanderbilt Ave (station 519: 40.752416 lat, -73.97837); 2015 and 2016 - Pershing Square North (station 519: 40.75187 lat, -73.97771 long).</p>
+					<p>This interactive map can be used to view the location of each bike station and their popularity, represented by the number of journeys started at each station. <em>Click on the visible layers tab to get started</em>. The datasets available are for four quarters: the first quarter of the scheme's operation (Q3-2013: q3_2013); and then Q2 for the years 2014, 2015, and 2016 (q2_2014; q2_215; q2_2016, respectively). Note that the scale changes for each dataset on the map. More information about each station can be viewed by hovering or clicking on the icon. The most accessed stations for each of the quarters were: 2013 - W 20 St &amp; 11 Ave (station 459: 40.74674 lat, -74.00776 long; 2014 - E 42 St &amp; Vanderbilt Ave (station 519: 40.752416 lat, -73.97837); 2015 and 2016 - Pershing Square North (station 519: 40.75187 lat, -73.97771 long).</p>
 				</div>
 
 				<ul class="actions">
@@ -174,9 +174,9 @@
 					</header>
 
 					<iframe width="100%" height="520" frameborder="0" src="https://rwkpotter.carto.com/viz/39cfbb6e-7ec5-11e6-ba51-0e05a8b3e3d7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<p>This interactive map can be used to view the most popular routes on the network. Popularity is defined here by routes which account for more than 15% of journeys from a given station. Click on the visible layers tab to get started. The dataset is for the second quarter of 2016 (routesq22016_start, routesq2015_end, route connector). Almost 20% of these routes start and end at the same station. This includes the most popular route - a round trip from the Yankee Ferry Terminal, which accounts for 51% of all journeys made from the terminal. The most popular route, in terms of frequency, was a round trip from Central Park South &amp; 6th Avenue (with 3576 journeys).</p>
+					<p>This interactive map can be used to view the most popular routes on the network. Popularity is defined here by routes which account for more than 15% of journeys from a given station. <em>Click on the visible layers tab to get started</em>. The dataset is for the second quarter of 2016 (routesq22016_start, routesq2015_end, route connector). Almost 20% of these routes start and end at the same station. This includes the most popular route - a round trip from the Yankee Ferry Terminal, which accounts for 51% of all journeys made from the terminal. The most popular route, in terms of frequency, was a round trip from Central Park South &amp; 6th Avenue (with 3576 journeys).</p>
 
-					<p>Starting stations with less than 20 starting journeys were omitted. The distribution of all bike stations for Q2 for 2015 and 2016 can be viewed by clicking on the visible layers tab and making the appropriate selection (q2_2015 and q2_2016). This highlights the expansion of the network.</p>
+					<p>Starting stations with less than 20 starting journeys were omitted. The distribution of all bike stations for Q2 2016 (q2_2016) is already selected. The distrbution for Q2 2015 can also be viewed by clicking on the visible layers tab and making the appropriate selection (q2_2015). This highlights the expansion of the network further into Brooklyn, Manhattan and into Queens.</p>
 				</div>
 
 				<ul class="actions">
@@ -216,7 +216,7 @@
 <li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; </li>
+						<li>&copy; Ross Potter</li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>

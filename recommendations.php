@@ -31,7 +31,7 @@
 						<li><a href="home.php">Overview</a></li>
 						<li><a href="analysis.php">Analysis</a></li>
 						<li><a href="recommendations.php">Recommendations</a></li>
-						<li><a href="elements.php">About Me</a></li>
+						<li><a href="aboutme.php">About Me</a></li>
 					</ul>
 				</nav>
 			</header>

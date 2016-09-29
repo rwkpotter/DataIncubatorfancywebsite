@@ -24,7 +24,7 @@
 						<li><a href="home.php">Overview</a></li>
 						<li><a href="analysis.php">Analysis</a></li>
 						<li><a href="recommendations.php">Recommendations</a></li>
-						<li><a href="elements.php">About Me</a></li>
+						<li><a href="aboutme.php">About Me</a></li>
 
 					</ul>
 				</nav>
@@ -216,7 +216,7 @@
 						<li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; </li>
+						<li>&copy; Ross Potter</li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>
