@@ -217,7 +217,7 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Ross Potter</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Based on a <a href="http://templated.co">TEMPLATED</a>design</li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>
 				</div>

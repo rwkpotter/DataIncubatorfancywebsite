@@ -75,8 +75,9 @@
 <li><a href="mailto:rwkpotter@gmail.com" class="icon fa-google"></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; </li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>&copy; Ross Potter</li>
+				<li>Based on a <a href="http://templated.co">TEMPLATED</a>design</li>
+
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
 					</ul>
 				</div>
