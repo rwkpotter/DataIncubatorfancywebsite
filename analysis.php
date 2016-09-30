@@ -38,6 +38,7 @@
 
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
+
 		<!-- Banner -->
 			<section id="banner">
 				<h2>New York City Citi Bike:</h2>
@@ -78,14 +79,14 @@
 
 					<p>These data also illustrate the cyclical nature of use, with more journeys in the summer (Q3) compared to the winter (Q1). This suggests that the scheme may want to tailor bike availbility for the season. For example, have less bikes in operation during the winter.</p>
 
-					<header class="major">
+					<header id="user2" class="major">
 						<h2>User Demographic II</h2>
 						<p>25-35s largest network users; 15-20s increase use during autumn</p>
 					</header>
 
 					
 
-								<div class="bk-root">
+								<div  class="bk-root">
     <div class="plotdiv" id="b68acbff-2db9-46e5-b702-2136d746cb5f"></div>
 </div>
 	<link
@@ -219,7 +220,7 @@
 						<li>&copy; Ross Potter</li>
 				<li>Based on a <a href="http://templated.co">TEMPLATED</a> design</li>
 						<li>Images: <a href="http://http://www.publicdomainpictures.net/">Public Domain Pictures</a></li>
-					</ul>
+				     	</ul>
 				</div>
 			</footer>
 		
