@@ -46,9 +46,10 @@
 		<ul class="actions"> 
 			<li><a href="#user" class="button">User demographic</a></li>	
 			<li class="trip"><a href="#trip" class="button">Trip statistics</a></li>
-					<li class="revenue"><a href="#revenue" class="button">Revenue</a></li>
-					<li class="station"><a href="#station" class="button">Station popularity</a></li>
-					<li class="route"><a href="#route" class="button">Route popularity</a></li>
+			<li class="revenue"><a href="#revenue" class="button">Revenue</a></li>
+			<li class="station"><a href="#station" class="button">Station popularity</a></li>
+			<li class="route"><a href="#route" class="button">Route popularity</a></li>
+			<li class="predict"><a href="#predict" class="button">Predicted popularity</a></li>
 				</ul>
 
 				<ul class="actions data">
@@ -181,13 +182,33 @@
 				</div>
 
 				<ul class="actions">
-						<li class="more"><a href="#data" class="button alt small">More</a></li>
+						<li class="more"><a href="#predict" class="button alt small">More</a></li>
 				</ul>
 
 		</section>
 
 
-			<section id="data" class="wrapper style2 special">
+
+<section id="predict" class="wrapper style2 special">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Predicted Popularity</h2>
+						<p>New Manhattan stations predicted to be most popular</p>
+					</header>
+
+					<iframe width="100%" height="520" frameborder="0" src="https://rwkpotter.carto.com/viz/f8f503ef-c92f-4ea2-a7fc-5e0c7a95566d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<p>This interactive map can be used to view the existing, planned and newly installed stations on the network (expansion2016), and the predicted popularity (number of starting journeys) of those planned (predictplannedq2) and newly installed (predictedinstalledq2). Popularity was predicted using a K nearest neighbours machine learning algorithm. Data from Q2 2016 (Q2_2016) was used to train the algorithm. Due to the seasonal use of the bike scheme, the predicted use is, therefore, for Q2 2017. <em>Click on the visible layers tab to get started</em>.</p>
+
+					<p>The predicted popularity for the installed and planned stations is on the same scale as that for Q2 2016. Of the newer stations, the Manhattan stations on the Upper West Side (west of Central Park) and the stations in Jersey City are predicted to be the most used (~11000-15000 journeys for Q2 2017). Stations in Brooklyn are predicted to have ~3000-4000 journeys.</p>
+				</div>
+
+				<ul class="actions">
+						<li class="more"><a href="#data" class="button alt small">More</a></li>
+				</ul>
+
+		</section>
+			<section id="data" class="wrapper style1 special">
 				<div class="container">
 
 					<header class="major special">
