@@ -155,7 +155,7 @@
 
 					<header class="major special">
 						<h2>Station Popularity</h2>
-						<p>Most popular station, Pershing Sq. North, located next to near Grand Central Station</p>
+						<p>Most popular station, Pershing Sq. North, located next to Grand Central Station</p>
 					</header>
 
 					<iframe width="100%" height="520" frameborder="0" src="https://rwkpotter.carto.com/viz/d473213c-7953-11e6-b63d-0ef24382571b/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
@@ -194,11 +194,11 @@
 
 					<header class="major special">
 						<h2>Predicted Popularity</h2>
-						<p>New Manhattan stations predicted to be most popular</p>
+						<p>New Manhattan and Jersey City stations predicted to be most popular</p>
 					</header>
 
 					<iframe width="100%" height="520" frameborder="0" src="https://rwkpotter.carto.com/viz/f8f503ef-c92f-4ea2-a7fc-5e0c7a95566d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-					<p>This interactive map can be used to view the existing, planned and newly installed stations on the network (expansion2016), and the predicted popularity (number of starting journeys) of those planned (predictplannedq2) and newly installed (predictedinstalledq2). Popularity was predicted using a K nearest neighbours machine learning algorithm. Data from Q2 2016 (Q2_2016) was used to train the algorithm. Due to the seasonal use of the bike scheme, the predicted use is, therefore, for Q2 2017. <em>Click on the visible layers tab to get started</em>.</p>
+					<p>This interactive map can be used to view the existing, planned and newly installed stations on the network (expansion_2016), and the predicted popularity (number of starting journeys) of those planned (predictplannedq2) and newly installed (predictedinstalledq2). Popularity was predicted using a K nearest neighbours machine learning algorithm. Data from Q2 2016 (q2_2016) was used to train the algorithm. Due to the seasonal use of the bike scheme, the predicted use is, therefore, for Q2 2017. <em>Click on the visible layers tab to get started</em>.</p>
 
 					<p>The predicted popularity for the installed and planned stations is on the same scale as that for Q2 2016. Of the newer stations, the Manhattan stations on the Upper West Side (west of Central Park) and the stations in Jersey City are predicted to be the most used (~11000-15000 journeys for Q2 2017). Stations in Brooklyn are predicted to have ~3000-4000 journeys.</p>
 				</div>
