@@ -237,7 +237,7 @@
 						<p>XX% increase in annual subsribers per quarter</p>
 					</header>
 
-					<a href="#" class="image fit"><img src="images/revenuebyqtr.png" alt="" /></a>
+					<a href="#" class="image fit"><img src="images/subscribepredict.png" alt="" /></a>
 					<p>This graph shows the total annual number of subscribers to the network since the network's opening (in red). Using this data, a linear regression model was used to predict the total number of subscribers through 2017 and 2018 (blue dots). Though subscriber uptake may be lower during the winter months, the prediction suggests the total number of subscribers will increase XX% per quarter on average.</p>
 
 					
